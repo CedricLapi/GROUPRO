@@ -16,7 +16,7 @@ app.use(express.json(), express.urlencoded({ extended: true }));
 const AllMyUserRoutes = require("./routes/idea.routes");
 AllMyUserRoutes(app);
 
-//require('./routes/user.routes')(app);
+require('./routes/user.routes')(app);
     
 
     
